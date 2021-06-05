@@ -18,7 +18,7 @@ If you're updating vMenu, instead of installing it from scratch, you need to mak
 
 ## Installation steps
 1. Go to the RELEASES page (on the GitHub repo), and download "vMenu-\<version\>.zip", or use the "Download vMenu" button on the left side of this page to automatically download the latest version.
-2. Once you've got your zip file, extract the files and copy everything into `/resources/vMenu/` so that you end up with the `fxmanifest.lua` (previously `__resource.lua`) file right here: `/resources/vMenu/fxmanifest.lua`.
+2. Once you've got your zip file, extract the files and copy  into `/resources/vMenu/` so that you end up with the `fxmanifest.lua` (previously `__resource.lua`) file right here: `/resources/vMenu/fxmanifest.lua`.
 {{% notice note%}}
 If you're trying to join the server, and it gives you an error saying "Could not load resource vMenu" or something similar, then make sure that you've installed vMenu inside `/resources/vMenu/` and NOT inside `/resources/vMenu/vMenu/`! Also note that the resource folder name **MUST** be called `vMenu` (Case Sensitive!!!) or the script will not work.
 {{% /notice %}}
